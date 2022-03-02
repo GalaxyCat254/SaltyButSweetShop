@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>♡~𝗧𝗵𝗲 𝗦𝗮𝗹𝘁𝘆 𝗕𝘂𝘁 𝗦𝘄𝗲𝗲𝘁 𝗦𝗵𝗼𝗽~♡</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div class="container">
+
+	<center>
+		<h1 class="header">	
+            <img src="cutelilchab.png" width="200" height="200">
+			♡~𝗧𝗵𝗲 𝗦𝗮𝗹𝘁𝘆 𝗕𝘂𝘁 𝗦𝘄𝗲𝗲𝘁 𝗦𝗵𝗼𝗽~♡
+			<sup>
+				<img src="cutelilchab.png" width="200" height="200">
+			</sup>
+		</h1>
+		<h1 class="color_white" id="name">♡~Welcome!~♡</h1>
+        <h1>♡~Click the images for a closer look!~♡</h1>
+        <img src="KUROMIEEEE.png" width="200" height="200">
+        <div>
+
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="accessories.html">Accessories</a></li>
+                  <li><a href="plushies.html">Plushies</a></li>
+                  <li><a href="clothing.html">Clothing</a></li>
+                  <li><a href="makeup.html">Makeup & More</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+
+        <h3>♡~Accessories~♡</h3>
+        <div class="gallery">
+            <a target="_blank" href="https://www.ebay.com/itm/363204870850?chn=ps&mkevt=1&mkcid=28&var=632374102615">
+              <img src="clips.jpeg" alt="Clips" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Hair Clips~♡</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="https://poshmark.com/listing/Kuromi-Heart-Necklace-621a93eb2a1eff46866c9978"></a>
+              <img src="nekkekekk.jpeg" alt="Necklace" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Necklace~♡</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="https://www.etsy.com/listing/1094117556/adult-and-kid-sizes-fabric-face-masks">
+              <img src="soaborbs.jpeg" alt="Mask" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Mask~♡</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="https://www.fruugo.us/3pcsset-kuromi-satchel-anime-printed-school-bag-backpack-with-pencil-bag-lunch-bag/p-63959053-129108554">
+              <img src="kuromiiiiiii.jpeg" alt="Backpack and Pouch" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Backpack~♡</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="https://www.amazon.com/Elastic-Headband-Washing-Headwear-Christmas/dp/B08PKD1H5Q/ref=sr_1_2?crid=E8C47Q0EDTNV&keywords=kuromi+scrunchie&qid=1646179471&sprefix=kuromi+pscrunchiw%2Caps%2C158&sr=8-2">
+              <img src="shuubbubu.jpg" alt="Scrunchie" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Scrunchie/Headband~♡</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="https://www.amazon.com/Hairpin-Headband-Cosplay-Headwear-Accessories/dp/B09JNH8XTH/ref=sr_1_31?crid=2X48AP0BKF65C&keywords=kuromi+plush&qid=1646016732&sprefix=kuromi+plush%2Caps%2C262&sr=8-31">
+              <img src="earss.jpeg" alt="Headband" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Headband~♡</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="https://www.hottopic.com/product/kuromi-heart-charm-hair-clip-set/16817017.html">
+              <img src="hair.jpeg" alt="Hair Clips" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Hair Clips~♡</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="https://www.mercari.com/us/item/m57735382894/">
+              <img src="opopopoo.jpeg" alt="Pop Socket" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Pop Socket~♡</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="https://www.etsy.com/listing/1167945239/sanrio-inspired-kuromi-soft-plush?gpla=1&gao=1&">
+              <img src="cutekyy.jpeg" alt="Keychain" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Plush Keychain~♡</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="https://www.amazon.com/Kuromi-Lanyard-Holder-Lanyards-Badges/dp/B09PDNQYG3">
+              <img src="hlooe.jpeg" alt="lanyard" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Lanyard~♡</div>
+          </div>
+        </div>
+
+
+
+		
+	</center>
+</div>
+<script src="cutee.js"></script>
+</body>
+</html>

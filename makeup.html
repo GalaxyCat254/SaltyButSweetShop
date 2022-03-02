@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>♡~𝗧𝗵𝗲 𝗦𝗮𝗹𝘁𝘆 𝗕𝘂𝘁 𝗦𝘄𝗲𝗲𝘁 𝗦𝗵𝗼𝗽~♡</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div class="container">
+	<center>
+		<h1 class="header">	
+            <img src="cutelilchab.png" width="200" height="200">
+			♡~𝗧𝗵𝗲 𝗦𝗮𝗹𝘁𝘆 𝗕𝘂𝘁 𝗦𝘄𝗲𝗲𝘁 𝗦𝗵𝗼𝗽~♡
+			<sup>
+				<img src="cutelilchab.png" width="200" height="200">
+			</sup>
+		</h1>
+		<h1 class="color_white" id="name">♡~Welcome!~♡</h1>
+        <h1>♡~Click the images for a closer look!~♡</h1>
+        <img src="KUROMIEEEE.png" width="200" height="200">
+        <div>
+
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="accessories.html">Accessories</a></li>
+                  <li><a href="plushies.html">Plushies</a></li>
+                  <li><a href="clothing.html">Clothing</a></li>
+                  <li><a href="makeup.html">Makeup & More</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="shop.html"><span class="glyphicon glyphicon-log-out" onclick="logout()"></span> Log Out</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <h3>♡~Makeup & More~♡</h3>
+        <div class="gallery">
+            <a target="_blank" href="https://www.google.com/url?q=https://www.yesstyle.com/en/tcuc.USD/coc.US/info.html/pid.1106398817%3Fgoogtrans%3Den&sa=U&ved=0ahUKEwj0mfWYmKb2AhXrdd8KHSfaA0AQ1ykIKQ&usg=AOvVaw2TcGcVCwZblj8kZbPdpMGG">
+              <img src="4.png" alt="Chapstick" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Chapstick~♡</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="https://www.ebay.com/itm/324708770427?chn=ps&mkevt=1&mkcid=28">
+              <img src="5.png" alt="makeup" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Makeup Brush~♡</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="https://www.aliexpress.com/item/1005003769004595.html">
+              <img src="6.jpg" alt="bag" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Makeup Bag~♡</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="https://www.walmart.com/ip/Kuromi-Plush-Hair-Band-Elastic-Women-s-Lovely-Headband-for-Washing-Face-Spa-Makeup-Headwear-Facial-Band-Christmas-Gift-Kuromi/265960410">
+              <img src="7.jpeg" alt="headband" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Makeup Headband~♡</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="https://www.google.com/url?q=https://beautysuppliers.org/product/sanrio-kuromi-accessories-cosmetic-flat-vinyl-mini-pouch-zipper-case-bag-14x12cm-cute/&sa=U&ved=0ahUKEwj6suWCnab2AhW6lmoFHRluAcQQ1ykIIw&usg=AOvVaw2_mv2D9SoMjgkjAEcMJJA0">
+              <img src="8.jpg" alt="pouch" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Makeup Pouch~♡</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="https://www.sanrio.com/products/folding-mirror-d-cut-k-u">
+              <img src="g.png" alt="mirror" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Compact Mirror~♡</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="https://www.yesstyle.com/en/tcuc.USD/coc.US/info.html/pid.1106398847">
+              <img src="shopping.png" alt="palette" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Eyeshadow Palette~♡</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="https://poshmark.com/listing/NEW-NWT-Sanrio-Kuromi-Compact-Mirror-wComb-Kawaii-NEW-IN-PACKAGE-61ff4aeb2b46b57bce403271">
+              <img src="shshsh.png" alt="mirror" width="200" height="200">
+            </a>
+            <div class="desc">♡~Kuromi Compact Mirror~♡</div>
+        </div>
+        
+
+
+		
+	</center>
+</div>
+<script src="cutee.js"></script>
+</body>
+</html>
